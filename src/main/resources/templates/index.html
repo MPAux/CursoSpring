@@ -29,7 +29,7 @@
           <!--Header-->
       <div class="p-5 mb-4 bg-body-tertiary rounded-3">
         <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+          <h1 class="display-5 fw-bold">Curso Spring Boot: Custom jumbotron</h1>
           <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
           <button onclick="location.href='http://www.eldiario.es'" class="btn btn-primary btn-lg" type="button">Example button</button>
         </div>
@@ -37,47 +37,20 @@
 
       <div class="container mb-5">
         <div class="row">
+          
           <!--Cards-->
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img th:src="@{/img/eddieMask.jpg}" src="../static/img/eddieMask.jpg" class="card-img-top" alt="...">
+          <div th:each="post : ${posts}" class="col-3">
+            <div class="card" style="width: 19rem; height: 24em;">
+              <img th:src="${post.urlImg}" style="width: 11rem;" src="../static/img/eddieMask.jpg" class="card-img-top mx-auto" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 th:text="${post.titulo}" class="card-title">Card title</h5>
+                <p th:text="${post.descripcion}" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                <button th:onclick="location.href=[[@{/home/post?id=} + ${post.id}]]" class="btn btn-primary">More info</button>
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img th:src="@{/img/eddieMask.jpg}" src="../static/img/eddieMask.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img th:src="@{/img/eddieMask.jpg}" src="../static/img/eddieMask.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img th:src="@{/img/eddieMask.jpg}" src="../static/img/eddieMask.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
+
         </div>
       
             <!--Pagination-->
@@ -98,7 +71,9 @@
       </div> <!--End container-->
 
 
-	
+	<footer>
+    <p>Mike Power</p>
+  </footer>
 	
 
           <!--bootstrap-->
