@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso de Spring Boot</title>
+        <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" href="../static/css/bootstrap.min.css">
+    </head>
+    
+    <body>
+      <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Spring Boot</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" th:href="@{/}" href="#">Inicio</a>
+                  <a class="nav-link" href="#">Galería</a>
+                  <a class="nav-link" href="#">Post</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+      
+        <!--Form-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h1>Nuevo post</h1>
+                </div>
+                <div class="col-12">
+                    <form th:action="@{/home/addNewPost}" method="post" th:object="${post}">
+                        <div class="form-row row">
+                            <div class="form-group col-md-6">
+                                <label for="is">Id</label>
+                                <input th:field="*{id}" th:value="*{id}" type="number" class="form-control" name="id" id="id" placeholder="Identificador">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="is">Descripción</label>
+                                <input th:field="*{descripcion}" th:value="*{descripcion}" type="text" class="form-control" name="descripcion" id="idescripciond" placeholder="Descripción">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="is">Imagen</label>
+                                <input th:field="*{urlImg}" th:value="*{urlImg}" type="text" class="form-control" name="urlImg" id="urlImg" placeholder="Imagen">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="is">Título</label>
+                                <input th:field="*{titulo}" th:value="*{titulo}" type="text" class="form-control" name="titulo" id="titulo" placeholder="Título">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary mt-4">Agregar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="mt-5">
+            <p>Mike Power</p>
+        </footer>
+	
+
+          <!--bootstrap-->
+          <script th:src="@{/js/bootstrap.bundle.min.js}" src="../static/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

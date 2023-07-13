@@ -20,7 +20,8 @@ public class Post {
 	}
 	
 	public Post() {
-		
+		this.urlImg = "/img/eddieMask.jpg";
+		this.fecha = new Date();
 	}
 	
 	public int getId() {
