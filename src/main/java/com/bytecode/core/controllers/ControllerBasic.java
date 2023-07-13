@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -44,9 +46,10 @@ public class ControllerBasic {
 		return modelAndView;
 	}
 	
-	@GetMapping(path = {"/post"})
+	@GetMapping(path = {"/post", "/post/{post}"})
 	public ModelAndView getPostIndividual(
-			@RequestParam(defaultValue="1", name="id", required=false) int id
+			//@RequestParam(defaultValue="1", name="id", required=false) 
+			@PathVariable(required=true, name="post") int id	
 			) {
 		ModelAndView modelAndView = new ModelAndView(Paginas.POST);
 		List<Post> postFiltrado = this.getPosts().stream().filter(
@@ -57,6 +60,20 @@ public class ControllerBasic {
 		modelAndView.addObject("post", postFiltrado.get(0));
 		
 		return modelAndView;
+	}
+	
+	@GetMapping("/postNew")
+	public ModelAndView getForm() {
+		System.out.println("ENTRANDO EN EL FORM");
+		return new ModelAndView("form").addObject("post", new Post());
+	}
+	
+	@PostMapping("/addNewPost")
+	public String addNewPost(Post post, Model model) {
+		List<Post> posts = this.getPosts();
+		posts.add(post);
+		model.addAttribute("posts", posts);
+		return "index";
 	}
 	
 }
