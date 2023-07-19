@@ -11,7 +11,7 @@ import com.bytecode.core.services.PostService;
 public class PostServiceImplDos implements PostService {
 
 	@Override
-	public List<Post> validateId(List<Post> posts) {
+	public List<Post> validation(List<Post> posts) {
 		System.out.println("Método de PostServiceImplDos");
 		for(Post post : posts) {
 			if(post.getId() == 0) {
