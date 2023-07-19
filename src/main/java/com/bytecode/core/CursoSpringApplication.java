@@ -1,5 +1,10 @@
 package com.bytecode.core;
 
+import java.io.BufferedReader;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +12,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.jdbc.core.JdbcTemplate;
 
 import com.bytecode.core.components.PostComponent;
 import com.bytecode.core.model.Conexion;
@@ -14,42 +20,10 @@ import com.bytecode.core.services.PostService;
 
 @SpringBootApplication
 public class CursoSpringApplication implements CommandLineRunner {
+	Log log = LogFactory.getLog(getClass());
 	
 	@Autowired
-	@Qualifier("com.bytecode.core.components.PostComponent")
-	PostComponent postComponent;
-	
-	@Autowired
-	@Qualifier("beanConexion")
-	private Conexion conexion;
-	
-	@Autowired
-	@Qualifier("serviceDecorado")
-	public PostService postService;
-
-	/*
-	@Autowired
-	@Qualifier("serviceDecorado")
-	public PostService postService;
-	
-	
-	 OTROS EJEMPLOS DE CÓMO INYECTAR
-	
-	
-	@Autowired
-	@Qualifier("serviceDecorado")
-	public void setPostService(PostService postService) {
-		this.postService = postService;
-		this.postService.addClass(CursoSpringApplication.class);
-	}
-	-------------------------------------
-	public CursoSpringApplication(@Qualifier("serviceDecorado") PostService postService) {
-		this.postService = postService;
-	}
-	
-	
-	*/
-	
+	JdbcTemplate jdbcTemplate;
 	
 	
 	public static void main(String[] args) {
@@ -59,14 +33,21 @@ public class CursoSpringApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Log log = LogFactory.getLog(this.getClass());
-		try {
-			postService.validation(postComponent.getPosts()).forEach(post -> {
-				log.info(post.getTitulo());
-			});
-		} catch (Exception e) {
-			log.error(e);
+		//jdbcTemplate.execute("insert into permiso (Nombre) values ('Ejemplo2')");
+		/*
+		String sql = "SELECT Nombre FROM permiso WHERE IdPermiso=?";
+
+	    String nombre = (String) jdbcTemplate.queryForObject(
+	            sql, new Object[] { 1 }, String.class);
+	    log.info("Resultado: "+nombre);
+		*/
+		Path path = Paths.get("src/main/resources/import.sql");
+		BufferedReader bufferReader = Files.newBufferedReader(path);
+		String line;
+		while((line = bufferReader.readLine()) != null) {
+			log.info(line);
 		}
+		//log.info(path);
 	}
 
 }
