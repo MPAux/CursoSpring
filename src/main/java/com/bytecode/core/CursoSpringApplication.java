@@ -1,5 +1,7 @@
 package com.bytecode.core;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
@@ -57,12 +59,13 @@ public class CursoSpringApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
+		Log log = LogFactory.getLog(this.getClass());
 		try {
 			postService.validation(postComponent.getPosts()).forEach(post -> {
-				System.out.println(post.getTitulo());
+				log.info(post.getTitulo());
 			});
 		} catch (Exception e) {
-			System.out.println(e.getMessage());
+			log.error(e);
 		}
 	}
 

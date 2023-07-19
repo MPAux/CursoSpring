@@ -1,0 +1,244 @@
+2023-07-19T12:53:51.512+02:00  INFO 236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T12:53:51.512+02:00  INFO 236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T12:53:51.679+02:00  INFO 236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T12:53:51.680+02:00  INFO 236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T12:53:51.680+02:00  INFO 236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T12:53:51.696+02:00  INFO 236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T12:53:51.696+02:00  INFO 236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 181 ms
+2023-07-19T12:53:51.732+02:00  INFO 236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T12:53:51.755+02:00  INFO 236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T12:53:51.763+02:00  INFO 236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T12:53:51.769+02:00  INFO 236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.281 seconds (process running for 147.452)
+2023-07-19T12:53:51.775+02:00  INFO 236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T12:56:39.117+02:00  INFO 236 --- [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-19T12:56:39.130+02:00  INFO 236 --- [RMI TCP Connection(20)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T12:56:41.012+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T12:56:41.014+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T12:56:41.069+02:00  INFO 14236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-19T12:56:41.069+02:00  INFO 14236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-19T12:56:41.934+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T12:56:41.945+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T12:56:41.946+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T12:56:42.017+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T12:56:42.017+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 947 ms
+2023-07-19T12:56:42.217+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T12:56:42.374+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T12:56:42.410+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T12:56:42.421+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 1.792 seconds (process running for 2.561)
+2023-07-19T12:59:54.972+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T12:59:55.208+02:00  INFO 14236 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T12:59:55.338+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T12:59:55.338+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T12:59:55.685+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T12:59:55.686+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T12:59:55.686+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T12:59:55.703+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T12:59:55.704+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 360 ms
+2023-07-19T12:59:55.772+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T12:59:55.818+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T12:59:55.831+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T12:59:55.838+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.534 seconds (process running for 195.978)
+2023-07-19T12:59:55.841+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:04:03.717+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:04:03.763+02:00  INFO 14236 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T13:04:03.859+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T13:04:03.860+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T13:04:04.086+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T13:04:04.087+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T13:04:04.088+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T13:04:04.104+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T13:04:04.104+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 239 ms
+2023-07-19T13:04:04.153+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T13:04:04.188+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T13:04:04.199+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T13:04:04.204+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.404 seconds (process running for 444.344)
+2023-07-19T13:04:04.207+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post
+2023-07-19T13:04:04.207+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 2
+2023-07-19T13:04:04.207+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 3
+2023-07-19T13:04:04.207+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 4
+2023-07-19T13:04:04.208+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:06:32.944+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:06:32.994+02:00  INFO 14236 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T13:06:33.081+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T13:06:33.082+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T13:06:33.298+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T13:06:33.299+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T13:06:33.300+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T13:06:33.421+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T13:06:33.421+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 332 ms
+2023-07-19T13:06:33.541+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T13:06:33.623+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T13:06:33.667+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T13:06:33.672+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.631 seconds (process running for 593.813)
+2023-07-19T13:06:33.674+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post
+2023-07-19T13:06:33.674+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 2
+2023-07-19T13:06:33.674+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 3
+2023-07-19T13:06:33.675+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 4
+2023-07-19T13:06:33.675+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:06:43.370+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:06:43.438+02:00  INFO 14236 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T13:06:43.731+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T13:06:43.731+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T13:06:44.074+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T13:06:44.075+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T13:06:44.075+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T13:06:44.126+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T13:06:44.127+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 317 ms
+2023-07-19T13:06:44.174+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T13:06:44.205+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T13:06:44.219+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T13:06:44.224+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.743 seconds (process running for 604.364)
+2023-07-19T13:06:44.226+02:00  INFO 14236 --- [restartedMain] c.b.c.s.impl.PostServiceDecoradoImpl     : Esta es la clase decorada
+2023-07-19T13:06:44.226+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post
+2023-07-19T13:06:44.227+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 2
+2023-07-19T13:06:44.227+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 3
+2023-07-19T13:06:44.227+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 4
+2023-07-19T13:06:44.227+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:07:49.492+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:07:49.509+02:00  INFO 14236 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T13:07:49.585+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T13:07:49.586+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T13:07:49.773+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T13:07:49.774+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T13:07:49.774+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T13:07:49.788+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T13:07:49.788+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms
+2023-07-19T13:07:49.881+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T13:07:50.080+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T13:07:50.088+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T13:07:50.092+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.544 seconds (process running for 670.232)
+2023-07-19T13:07:50.093+02:00  INFO 14236 --- [restartedMain] c.b.c.s.impl.PostServiceDecoradoImpl     : Esta es la clase decorada
+2023-07-19T13:07:50.094+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post
+2023-07-19T13:07:50.094+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 2
+2023-07-19T13:07:50.094+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 3
+2023-07-19T13:07:50.094+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 4
+2023-07-19T13:07:50.095+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:08:48.828+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:08:48.843+02:00  INFO 14236 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T13:08:48.931+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T13:08:48.932+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T13:08:49.176+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T13:08:49.177+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T13:08:49.177+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T13:08:49.191+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T13:08:49.192+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 247 ms
+2023-07-19T13:08:49.248+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T13:08:49.326+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T13:08:49.415+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T13:08:49.419+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.539 seconds (process running for 729.559)
+2023-07-19T13:08:49.421+02:00  INFO 14236 --- [restartedMain] c.b.core.services.impl.PostServiceImpl   : Método de PostServiceImpl
+2023-07-19T13:08:49.421+02:00  INFO 14236 --- [restartedMain] c.b.c.s.impl.PostServiceDecoradoImpl     : Esta es la clase decorada
+2023-07-19T13:08:49.422+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post
+2023-07-19T13:08:49.422+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 2
+2023-07-19T13:08:49.422+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 3
+2023-07-19T13:08:49.422+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 4
+2023-07-19T13:08:49.423+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:09:29.592+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:09:29.615+02:00  INFO 14236 --- [Thread-27] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T13:09:29.652+02:00  WARN 14236 --- [Thread-27] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Catalina-utility-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ app//org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-07-19T13:09:29.706+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T13:09:29.707+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T13:09:29.915+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T13:09:29.915+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T13:09:29.918+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T13:09:29.953+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T13:09:29.953+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 244 ms
+2023-07-19T13:09:29.994+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T13:09:30.022+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T13:09:30.030+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T13:09:30.036+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.351 seconds (process running for 770.176)
+2023-07-19T13:09:30.038+02:00  INFO 14236 --- [restartedMain] c.b.core.services.impl.PostServiceImpl   : Método de PostServiceImpl
+2023-07-19T13:09:30.040+02:00  INFO 14236 --- [restartedMain] c.b.c.s.impl.PostServiceDecoradoImpl     : Esta es la clase decorada
+2023-07-19T13:09:30.041+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post
+2023-07-19T13:09:30.041+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 2
+2023-07-19T13:09:30.041+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 3
+2023-07-19T13:09:30.041+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 4
+2023-07-19T13:09:30.041+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:09:37.844+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:09:37.959+02:00  INFO 14236 --- [Thread-31] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T13:09:38.092+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T13:09:38.092+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T13:09:38.599+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T13:09:38.601+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T13:09:38.602+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T13:09:38.617+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T13:09:38.617+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 523 ms
+2023-07-19T13:09:38.679+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T13:09:38.731+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T13:09:38.739+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T13:09:38.750+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.687 seconds (process running for 778.89)
+2023-07-19T13:09:38.752+02:00  INFO 14236 --- [restartedMain] c.b.core.services.impl.PostServiceImpl   : Método de PostServiceImpl
+2023-07-19T13:09:38.752+02:00  INFO 14236 --- [restartedMain] c.b.c.services.impl.PostServiceImplDos   : Método de PostServiceImplDos
+2023-07-19T13:09:38.752+02:00  INFO 14236 --- [restartedMain] c.b.c.s.impl.PostServiceDecoradoImpl     : Esta es la clase decorada
+2023-07-19T13:09:38.753+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post
+2023-07-19T13:09:38.753+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 2
+2023-07-19T13:09:38.753+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 3
+2023-07-19T13:09:38.753+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 4
+2023-07-19T13:09:38.754+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:11:06.746+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:11:06.787+02:00  INFO 14236 --- [Thread-35] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T13:11:06.897+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T13:11:06.897+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T13:11:07.178+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T13:11:07.180+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T13:11:07.180+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T13:11:07.194+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T13:11:07.194+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 294 ms
+2023-07-19T13:11:07.241+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T13:11:07.281+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T13:11:07.295+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T13:11:07.299+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.435 seconds (process running for 867.439)
+2023-07-19T13:11:07.301+02:00  INFO 14236 --- [restartedMain] c.b.core.services.impl.PostServiceImpl   : Método de PostServiceImpl
+2023-07-19T13:11:07.301+02:00  INFO 14236 --- [restartedMain] c.b.c.services.impl.PostServiceImplDos   : Método de PostServiceImplDos
+2023-07-19T13:11:07.301+02:00  INFO 14236 --- [restartedMain] c.b.c.s.impl.PostServiceDecoradoImpl     : Esta es la clase decorada
+2023-07-19T13:11:07.302+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post
+2023-07-19T13:11:07.302+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 2
+2023-07-19T13:11:07.302+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 3
+2023-07-19T13:11:07.302+02:00  INFO 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : Eddie's post 4
+2023-07-19T13:11:07.303+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:16:40.255+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:16:40.284+02:00  INFO 14236 --- [Thread-39] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T13:16:40.348+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T13:16:40.348+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T13:16:40.953+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T13:16:40.955+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T13:16:40.955+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T13:16:40.975+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T13:16:40.976+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 610 ms
+2023-07-19T13:16:41.040+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T13:16:41.080+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T13:16:41.091+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T13:16:41.098+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.775 seconds (process running for 1201.238)
+2023-07-19T13:16:41.099+02:00  INFO 14236 --- [restartedMain] c.b.core.services.impl.PostServiceImpl   : Método de PostServiceImpl
+2023-07-19T13:16:41.099+02:00  INFO 14236 --- [restartedMain] c.b.c.services.impl.PostServiceImplDos   : Método de PostServiceImplDos
+2023-07-19T13:16:41.099+02:00 ERROR 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : java.lang.NullPointerException: La id es igual a 0
+2023-07-19T13:16:41.104+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:18:05.261+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:18:05.357+02:00  INFO 14236 --- [Thread-43] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-19T13:18:05.498+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.7 with PID 14236 (C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring\target\classes started by mikew in C:\Users\mikew\Documents\Cursos\Spring Boot\CursoSpring)
+2023-07-19T13:18:05.498+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-19T13:18:05.875+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-19T13:18:05.876+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-19T13:18:05.876+02:00  INFO 14236 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-19T13:18:05.889+02:00  INFO 14236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-19T13:18:05.890+02:00  INFO 14236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 390 ms
+2023-07-19T13:18:06.048+02:00  INFO 14236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-19T13:18:06.073+02:00  INFO 14236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-19T13:18:06.081+02:00  INFO 14236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19T13:18:06.085+02:00  INFO 14236 --- [restartedMain] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 0.617 seconds (process running for 1286.226)
+2023-07-19T13:18:06.087+02:00  INFO 14236 --- [restartedMain] c.b.core.services.impl.PostServiceImpl   : Método de PostServiceImpl
+2023-07-19T13:18:06.088+02:00  INFO 14236 --- [restartedMain] c.b.c.services.impl.PostServiceImplDos   : Método de PostServiceImplDos
+2023-07-19T13:18:06.088+02:00 ERROR 14236 --- [restartedMain] c.CursoSpringApplication$$SpringCGLIB$$0 : java.lang.NullPointerException: La id es igual a 0
+2023-07-19T13:18:06.089+02:00  INFO 14236 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-07-19T13:20:55.358+02:00  INFO 14236 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-07-19T13:20:55.396+02:00  INFO 14236 --- [Thread-47] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
